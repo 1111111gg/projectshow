@@ -1,0 +1,50 @@
+{
+  "components": {
+    "seeds": {
+      "TicTacToe": {
+        "src": "src/seeds/TicTacToe"
+      }
+    },
+    "visualizers": {
+      "ReactToe": {
+        "src": "panels/ReactToe/ReactToePanel",
+        "title": "ReactToe",
+        "panel": "src/visualizers/panels/ReactToe",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/ReactToe"
+      }
+    },
+    "plugins": {
+      "BuildDescriptor": {
+        "src": "src/plugins/BuildDescriptor",
+        "test": "test/plugins/BuildDescriptor"
+      },
+      "CheckWinCondition": {
+        "src": "src/plugins/CheckWinCondition",
+        "test": "test/plugins/CheckWinCondition"
+      },
+      "CreateGame": {
+        "src": "src/plugins/CreateGame",
+        "test": "test/plugins/CreateGame"
+      },
+      "PlayerMoves": {
+        "src": "src/plugins/PlayerMoves",
+        "test": "test/plugins/PlayerMoves"
+      },
+      "myplugin": {
+        "src": "src/plugins/myplugin",
+        "test": "test/plugins/myplugin"
+      },
+      "undo": {
+        "src": "src/plugins/undo",
+        "test": "test/plugins/undo"
+      }
+    
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "visualizers": {},
+    "plugins": {}
+  }
+}

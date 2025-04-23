@@ -1,0 +1,593 @@
+2023-12-05T21:02:43.172Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T21:02:43.175Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T21:12:09.615Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T21:12:09.616Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:36:17.627Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T22:36:17.628Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:39:29.943Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T22:39:29.950Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:51:42.704Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T22:51:42.704Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:54:47.228Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T22:54:47.229Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T23:06:15.344Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T23:06:15.345Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T23:32:23.103Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T23:32:23.107Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-06T21:14:34.012Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Traceback (most recent call last):
+
+2023-12-06T21:14:34.016Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin]   File "C:\Users\�߸�\new1\src\plugins\myPlugin\run_plugin.py", line 12, in <module>
+
+2023-12-06T21:14:34.017Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-06T21:14:34.019Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-06T21:14:34.025Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions] plugin [myPlugin] failed with error message=python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-06T21:16:57.327Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Traceback (most recent call last):
+  File "C:\Users\�߸�\new1\src\plugins\myPlugin\run_plugin.py", line 12, in <module>
+
+2023-12-06T21:16:57.332Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-06T21:16:57.334Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:527:28)
+    at Pipe.<anonymous> (node:net:709:12)
+2023-12-06T21:16:57.335Z - error: [gme:server:worker:simpleworker:pid_8552:WorkerFunctions] plugin [myPlugin] failed with error message=python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:527:28)
+    at Pipe.<anonymous> (node:net:709:12)
+2023-12-06T21:16:57.340Z - error: [gme:server:worker:simpleworker:pid_21380:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Traceback (most recent call last):
+  File "C:\Users\�߸�\new1\src\plugins\myPlugin\run_plugin.py", line 12, in <module>
+
+2023-12-06T21:16:57.341Z - error: [gme:server:worker:simpleworker:pid_21380:WorkerFunctions:PluginManagerBase:plugin:myPlugin]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-06T21:16:57.346Z - error: [gme:server:worker:simpleworker:pid_21380:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5556 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-06T21:16:57.352Z - error: [gme:server:worker:simpleworker:pid_21380:WorkerFunctions] plugin [myPlugin] failed with error message=python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5556 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5556 "#6539494e2b8729bc889450d6f2f294d9f44d3903" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-06T21:21:24.667Z - error: [gme:server:worker:simpleworker:pid_23368:WorkerFunctions:PluginManagerBase:plugin:mytile] Traceback (most recent call last):
+  File "C:\Users\�߸�\new1\src\plugins\mytile\run_plugin.py", line 12, in <module>
+
+2023-12-06T21:21:24.671Z - error: [gme:server:worker:simpleworker:pid_23368:WorkerFunctions:PluginManagerBase:plugin:mytile]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-06T21:21:24.674Z - error: [gme:server:worker:simpleworker:pid_23368:WorkerFunctions:PluginManagerBase:plugin:mytile] Error: python C:\Users\高耕\new1\src\plugins\mytile\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/n/0" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\mytile\mytile.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:527:28)
+    at Pipe.<anonymous> (node:net:709:12)
+2023-12-06T21:21:24.677Z - error: [gme:server:worker:simpleworker:pid_23368:WorkerFunctions] plugin [mytile] failed with error message=python C:\Users\高耕\new1\src\plugins\mytile\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/n/0" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\mytile\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/n/0" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\mytile\mytile.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:527:28)
+    at Pipe.<anonymous> (node:net:709:12)
+2023-12-07T00:42:21.749Z - error: [gme:server:worker:simpleworker:pid_13884:WorkerFunctions] Error: Problems with connection to the webgme server, network state: DISCONNECTED
+2023-12-07T00:42:21.840Z - error: [gme:server:worker:simpleworker:pid_13884:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Traceback (most recent call last):
+  File "C:\Users\�߸�\new1\src\plugins\myPlugin\run_plugin.py", line 12, in <module>
+
+2023-12-07T00:42:21.842Z - error: [gme:server:worker:simpleworker:pid_13884:WorkerFunctions:PluginManagerBase:plugin:myPlugin]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-07T00:42:21.845Z - error: [gme:server:worker:simpleworker:pid_13884:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-07T00:42:21.848Z - error: [gme:server:worker:simpleworker:pid_13884:WorkerFunctions] plugin [myPlugin] failed with error message=python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-08T04:17:48.776Z - error: [gme:server:worker:simpleworker:pid_18900:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Traceback (most recent call last):
+
+2023-12-08T04:17:48.780Z - error: [gme:server:worker:simpleworker:pid_18900:WorkerFunctions:PluginManagerBase:plugin:myPlugin]   File "C:\Users\�߸�\new1\src\plugins\myPlugin\run_plugin.py", line 12, in <module>
+
+2023-12-08T04:17:48.782Z - error: [gme:server:worker:simpleworker:pid_18900:WorkerFunctions:PluginManagerBase:plugin:myPlugin]     from webgme_bindings import WebGME
+ModuleNotFoundError: No module named 'webgme_bindings'
+
+2023-12-08T04:17:48.784Z - error: [gme:server:worker:simpleworker:pid_18900:WorkerFunctions:PluginManagerBase:plugin:myPlugin] Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-08T04:17:48.787Z - error: [gme:server:worker:simpleworker:pid_18900:WorkerFunctions] plugin [myPlugin] failed with error message=python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1., stack=Error: python C:\Users\高耕\new1\src\plugins\myPlugin\run_plugin.py 5555 "#eb2b81115977100d9a322ac1453814ffc33ab596" "master" "/J" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\Users\高耕\new1\src\plugins\myPlugin\myPlugin.js:99:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-08T04:21:06.673Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T04:21:06.674Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T06:47:51.056Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-08T06:47:51.059Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T04:12:34.506Z - error: [gme:server:worker:simpleworker:pid_12628:WorkerFunctions] Error: Problems with connection to the webgme server, network state: DISCONNECTED
+2023-12-09T04:12:34.517Z - error: [gme:server:worker:simpleworker:pid_18356:WorkerFunctions] Error: Problems with connection to the webgme server, network state: DISCONNECTED
+2023-12-09T04:12:35.076Z - error: [gme:server:worker:simpleworker:pid_12628:WorkerFunctions] Error: Problems with connection to the webgme server, network state: RECONNECTED
+2023-12-09T04:12:35.222Z - error: [gme:server:worker:simpleworker:pid_18356:WorkerFunctions] Error: Problems with connection to the webgme server, network state: RECONNECTED
+2023-12-10T19:29:17.693Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (C:\Users\高耕\new1\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (node:events:642:26)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12)]
+2023-12-10T19:29:17.696Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T19:30:39.719Z - error: [gme:server:worker:simpleworker:pid_15468:WorkerFunctions] plugin [CheckWinCondition] failed with error message=Tried loading "new1/utils" at C:\Users\高耕\new1\node_modules\webgme-engine\src/new1/utils.js then tried node's require("new1/utils") and it failed with error: Error: Cannot find module 'new1/utils'
+Require stack:
+- C:\Users\高耕\new1\node_modules\webgme-engine\index.js
+- C:\Users\高耕\new1\node_modules\webgme-engine\src\server\worker\simpleworker.js, stack=Error: Tried loading "new1/utils" at C:\Users\高耕\new1\node_modules\webgme-engine\src/new1/utils.js then tried node's require("new1/utils") and it failed with error: Error: Cannot find module 'new1/utils'
+Require stack:
+- C:\Users\高耕\new1\node_modules\webgme-engine\index.js
+- C:\Users\高耕\new1\node_modules\webgme-engine\src\server\worker\simpleworker.js
+    at C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:2600:27
+    at Object.execCb (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1946:33)
+    at Module.check (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1128:55)
+    at Module.enable (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1426:22)
+    at Module.init (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1038:26)
+    at callGetModule (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1453:63)
+    at Object.completeLoad (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1840:21)
+    at Function.req.load (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:2613:17)
+    at Object.load (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1935:21)
+    at Module.load (C:\Users\高耕\new1\node_modules\requirejs\bin\r.js:1084:29), code=MODULE_NOT_FOUND, requireStack=[C:\Users\高耕\new1\node_modules\webgme-engine\index.js, C:\Users\高耕\new1\node_modules\webgme-engine\src\server\worker\simpleworker.js], moduleName=new1/utils, requireModules=[new1/utils], prefix=undefined, name=new1/utils, prefix=undefined, name=plugin/CheckWinCondition/CheckWinCondition/CheckWinCondition, parentMap=undefined, unnormalized=false, url=C:\Users\高耕\new1\node_modules\webgme-engine\src/..\..\..\src\plugins/CheckWinCondition/CheckWinCondition.js, originalName=plugin/CheckWinCondition/CheckWinCondition/CheckWinCondition, isDefine=true, id=plugin/CheckWinCondition/CheckWinCondition/CheckWinCondition, unnormalized=false, url=C:\Users\高耕\new1\node_modules\webgme-engine\src/new1/utils.js, originalName=new1/utils, isDefine=true, id=new1/utils, requireType=define
+2023-12-10T19:04:04.573Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T19:04:04.574Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T19:04:26.741Z - error: [gme:server:worker:simpleworker:pid_2540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:04:26.772Z - error: [gme:server:worker:simpleworker:pid_2540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:04:26.954Z - error: [gme:server:worker:simpleworker:pid_2540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:04:26.956Z - error: [gme:server:worker:simpleworker:pid_2540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:04:26.959Z - error: [gme:server:worker:simpleworker:pid_2540:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:05:44.401Z - error: [gme:server:worker:simpleworker:pid_6608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:05:44.414Z - error: [gme:server:worker:simpleworker:pid_6608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:05:44.595Z - error: [gme:server:worker:simpleworker:pid_6608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:05:44.597Z - error: [gme:server:worker:simpleworker:pid_6608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:05:44.600Z - error: [gme:server:worker:simpleworker:pid_6608:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:37:44.957Z - error: [gme:server:worker:simpleworker:pid_9112:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:37:44.969Z - error: [gme:server:worker:simpleworker:pid_9112:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:37:45.148Z - error: [gme:server:worker:simpleworker:pid_9112:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:37:45.149Z - error: [gme:server:worker:simpleworker:pid_9112:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:37:45.152Z - error: [gme:server:worker:simpleworker:pid_9112:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#9b66d064b2ff566f0c0a7eaa188ad2dbc21de8a4" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:38:23.436Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:38:23.447Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:38:23.624Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:38:23.626Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#724a5ff24d244d654dcc03ab266060ec666508ef" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:38:23.629Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#724a5ff24d244d654dcc03ab266060ec666508ef" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#724a5ff24d244d654dcc03ab266060ec666508ef" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:39:04.641Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:39:04.642Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:39:04.795Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:39:04.798Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:39:04.799Z - error: [gme:server:worker:simpleworker:pid_7564:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:42:16.763Z - error: [gme:server:worker:simpleworker:pid_10780:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:42:16.774Z - error: [gme:server:worker:simpleworker:pid_10780:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:42:16.947Z - error: [gme:server:worker:simpleworker:pid_10780:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:42:16.948Z - error: [gme:server:worker:simpleworker:pid_10780:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:42:16.951Z - error: [gme:server:worker:simpleworker:pid_10780:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#793d3b6f0c362383e9504dac7aab8fbfb8893389" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:46:47.809Z - error: [gme:server:worker:simpleworker:pid_1428:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-10T19:46:47.820Z - error: [gme:server:worker:simpleworker:pid_1428:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-10T19:46:47.990Z - error: [gme:server:worker:simpleworker:pid_1428:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 9009
+2023-12-10T19:46:47.991Z - error: [gme:server:worker:simpleworker:pid_1428:WorkerFunctions:PluginManagerBase:plugin:CreateGame] Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#32857cf21bcdc6bb42b257d4235d32d03552a251" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-10T19:46:47.994Z - error: [gme:server:worker:simpleworker:pid_1428:WorkerFunctions] plugin [CreateGame] failed with error message=python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#32857cf21bcdc6bb42b257d4235d32d03552a251" "master" "/J" "" "" exited with code 9009., stack=Error: python3 C:\Users\高耕\temp1\src\plugins\CreateGame\run_plugin.py 5555 "#32857cf21bcdc6bb42b257d4235d32d03552a251" "master" "/J" "" "" exited with code 9009.
+    at ChildProcess.<anonymous> (C:\Users\高耕\temp1\src\plugins\CreateGame\CreateGame.js:103:37)
+    at ChildProcess.emit (node:events:527:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+2023-12-11T05:38:39.798Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T05:38:39.818Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T05:38:40.125Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T05:38:58.537Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T05:38:58.538Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T05:38:58.756Z - error: [gme:server:worker:simpleworker:pid_16376:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:35:15.355Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-11T07:35:15.357Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-11T07:36:15.820Z - error: [gme:server:worker:simpleworker:pid_10948:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:36:15.860Z - error: [gme:server:worker:simpleworker:pid_10948:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:36:16.345Z - error: [gme:server:worker:simpleworker:pid_10948:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:43:17.921Z - error: [gme:server:worker:simpleworker:pid_13388:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:43:17.932Z - error: [gme:server:worker:simpleworker:pid_13388:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:43:18.169Z - error: [gme:server:worker:simpleworker:pid_13388:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:43:46.453Z - error: [gme:server:worker:simpleworker:pid_13216:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:43:46.465Z - error: [gme:server:worker:simpleworker:pid_13216:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:43:46.685Z - error: [gme:server:worker:simpleworker:pid_13216:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:44:11.055Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:44:11.067Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:44:11.307Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:44:49.857Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:44:49.858Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:44:50.078Z - error: [gme:server:worker:simpleworker:pid_6472:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:46:58.743Z - error: [gme:server:worker:simpleworker:pid_26772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:46:58.754Z - error: [gme:server:worker:simpleworker:pid_26772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:46:58.988Z - error: [gme:server:worker:simpleworker:pid_26772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T07:59:29.053Z - error: [gme:server:worker:simpleworker:pid_10076:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T07:59:29.066Z - error: [gme:server:worker:simpleworker:pid_10076:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T07:59:29.311Z - error: [gme:server:worker:simpleworker:pid_10076:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:01:24.151Z - error: [gme:server:worker:simpleworker:pid_26868:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:01:24.163Z - error: [gme:server:worker:simpleworker:pid_26868:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:01:24.408Z - error: [gme:server:worker:simpleworker:pid_26868:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:09:22.995Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:09:23.008Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:09:23.244Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:11:45.521Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:11:45.521Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:11:45.740Z - error: [gme:server:worker:simpleworker:pid_8252:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:39:22.117Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+new1
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\websocket.js:392:39
+    at _fulfilled (C:\Users\高耕\temp1\node_modules\q\q.js:854:54)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:816:13)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+ Error: Caught by
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\websocket.js:405:56
+    at _rejected (C:\Users\高耕\temp1\node_modules\q\q.js:864:24)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\高耕\temp1\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:808:41)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-12-11T08:39:22.128Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+new1]
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\高耕\temp1\node_modules\q\q.js:854:54)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:816:13)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+ Error: Caught by
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\高耕\temp1\node_modules\q\q.js:864:24)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\高耕\temp1\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:808:41)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-12-11T08:39:22.132Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+new1]
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\metadatastorage.js:190:27
+    at _fulfilled (C:\Users\高耕\temp1\node_modules\q\q.js:854:54)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:883:30
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:816:13)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+ Error: Caught by
+    at C:\Users\高耕\temp1\node_modules\webgme-engine\src\server\storage\websocket.js:454:56
+    at _rejected (C:\Users\高耕\temp1\node_modules\q\q.js:864:24)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:890:30
+    at Promise.when (C:\Users\高耕\temp1\node_modules\q\q.js:1142:31)
+    at Promise.promise.promiseDispatch (C:\Users\高耕\temp1\node_modules\q\q.js:808:41)
+    at C:\Users\高耕\temp1\node_modules\q\q.js:624:44
+    at runSingle (C:\Users\高耕\temp1\node_modules\q\q.js:137:13)
+    at flush (C:\Users\高耕\temp1\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-12-11T08:39:58.819Z - error: [gme:server:worker:simpleworker:pid_26004:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:39:58.869Z - error: [gme:server:worker:simpleworker:pid_26004:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:39:59.115Z - error: [gme:server:worker:simpleworker:pid_26004:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:44:51.396Z - error: [gme:server:worker:simpleworker:pid_10540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:44:51.407Z - error: [gme:server:worker:simpleworker:pid_10540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:44:51.654Z - error: [gme:server:worker:simpleworker:pid_10540:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-11T08:47:20.451Z - error: [gme:server:worker:simpleworker:pid_24124:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-11T08:47:20.462Z - error: [gme:server:worker:simpleworker:pid_24124:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-11T08:47:20.698Z - error: [gme:server:worker:simpleworker:pid_24124:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:18:16.580Z - error: [gme:server:worker:simpleworker:pid_21288:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:18:16.686Z - error: [gme:server:worker:simpleworker:pid_21288:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:18:17.339Z - error: [gme:server:worker:simpleworker:pid_21288:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:50:49.304Z - error: [gme:server:worker:simpleworker:pid_24788:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:50:49.413Z - error: [gme:server:worker:simpleworker:pid_24788:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:50:49.865Z - error: [gme:server:worker:simpleworker:pid_24788:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:51:03.396Z - error: [gme:server:worker:simpleworker:pid_16456:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:51:03.408Z - error: [gme:server:worker:simpleworker:pid_16456:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:51:03.635Z - error: [gme:server:worker:simpleworker:pid_16456:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:51:43.508Z - error: [gme:server:worker:simpleworker:pid_12360:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:51:43.519Z - error: [gme:server:worker:simpleworker:pid_12360:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:51:43.762Z - error: [gme:server:worker:simpleworker:pid_12360:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:51:56.328Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:51:56.340Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:51:56.586Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:52:35.408Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:52:35.411Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:52:35.626Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:53:22.207Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:53:22.208Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:53:22.425Z - error: [gme:server:worker:simpleworker:pid_2264:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-12T03:59:41.751Z - error: [gme:server:worker:simpleworker:pid_11668:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-12T03:59:41.763Z - error: [gme:server:worker:simpleworker:pid_11668:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-12T03:59:42.019Z - error: [gme:server:worker:simpleworker:pid_11668:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T04:56:19.882Z - error: [gme:server:worker:simpleworker:pid_12092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T04:56:19.938Z - error: [gme:server:worker:simpleworker:pid_12092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T04:56:20.427Z - error: [gme:server:worker:simpleworker:pid_12092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T05:01:50.256Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T05:01:50.257Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T05:01:59.295Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T05:01:59.296Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T05:36:21.432Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T05:36:21.433Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T05:37:38.645Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T05:37:38.658Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T05:37:38.894Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T05:40:23.722Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T05:40:23.723Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T05:40:23.943Z - error: [gme:server:worker:simpleworker:pid_23168:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T05:55:33.521Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T05:55:33.522Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T05:55:42.268Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (C:\Users\高耕\miniproject\miniproject\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (node:events:642:26)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12)]
+2023-12-14T05:55:42.270Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T06:42:52.659Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T06:42:52.661Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T06:43:00.826Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (C:\Users\高耕\miniproject\miniproject\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (node:events:642:26)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12)]
+2023-12-14T06:43:00.828Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T06:43:12.882Z - error: [gme:server:worker:simpleworker:pid_16580:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T06:43:12.894Z - error: [gme:server:worker:simpleworker:pid_16580:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T06:43:13.131Z - error: [gme:server:worker:simpleworker:pid_16580:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T06:49:48.841Z - error: [gme:server:worker:simpleworker:pid_23932:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T06:49:48.854Z - error: [gme:server:worker:simpleworker:pid_23932:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T06:49:49.080Z - error: [gme:server:worker:simpleworker:pid_23932:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T07:13:17.429Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T07:13:17.430Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T07:13:25.509Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T07:13:25.510Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T07:13:42.194Z - error: [gme:server:worker:simpleworker:pid_4340:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T07:13:42.206Z - error: [gme:server:worker:simpleworker:pid_4340:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T07:13:42.475Z - error: [gme:server:worker:simpleworker:pid_4340:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T07:24:18.062Z - error: [gme:server:worker:simpleworker:pid_22688:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T07:24:18.075Z - error: [gme:server:worker:simpleworker:pid_22688:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T07:24:18.319Z - error: [gme:server:worker:simpleworker:pid_22688:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T07:40:15.408Z - error: [gme:server:worker:simpleworker:pid_15104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T07:40:15.420Z - error: [gme:server:worker:simpleworker:pid_15104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T07:40:15.662Z - error: [gme:server:worker:simpleworker:pid_15104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T08:15:18.134Z - error: [gme:server:worker:simpleworker:pid_6236:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T08:15:18.145Z - error: [gme:server:worker:simpleworker:pid_6236:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T08:15:18.389Z - error: [gme:server:worker:simpleworker:pid_6236:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T08:23:48.549Z - error: [gme:server:worker:simpleworker:pid_22184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T08:23:48.564Z - error: [gme:server:worker:simpleworker:pid_22184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T08:23:48.800Z - error: [gme:server:worker:simpleworker:pid_22184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T08:35:14.321Z - error: [gme:server:worker:simpleworker:pid_23608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T08:35:14.332Z - error: [gme:server:worker:simpleworker:pid_23608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T08:35:14.581Z - error: [gme:server:worker:simpleworker:pid_23608:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T08:56:37.653Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T08:56:37.654Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T08:56:45.763Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T08:56:45.764Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T09:03:41.139Z - error: [gme:server:worker:simpleworker:pid_23140:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T09:03:41.155Z - error: [gme:server:worker:simpleworker:pid_23140:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T09:03:41.420Z - error: [gme:server:worker:simpleworker:pid_23140:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:06:47.170Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-14T10:06:47.171Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T10:06:55.889Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (C:\Users\高耕\miniproject\miniproject\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (node:events:642:26)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12)]
+2023-12-14T10:06:55.890Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-14T10:07:11.674Z - error: [gme:server:worker:simpleworker:pid_24836:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:07:11.689Z - error: [gme:server:worker:simpleworker:pid_24836:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:07:11.937Z - error: [gme:server:worker:simpleworker:pid_24836:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:14:26.469Z - error: [gme:server:worker:simpleworker:pid_20052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:14:26.481Z - error: [gme:server:worker:simpleworker:pid_20052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:14:26.720Z - error: [gme:server:worker:simpleworker:pid_20052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:15:04.022Z - error: [gme:server:worker:simpleworker:pid_1772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:15:04.035Z - error: [gme:server:worker:simpleworker:pid_1772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:15:04.273Z - error: [gme:server:worker:simpleworker:pid_1772:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:18:47.595Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:18:47.607Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:18:47.839Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:19:38.176Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:19:38.177Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:19:38.400Z - error: [gme:server:worker:simpleworker:pid_11848:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:21:23.650Z - error: [gme:server:worker:simpleworker:pid_24624:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:21:23.662Z - error: [gme:server:worker:simpleworker:pid_24624:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:21:23.908Z - error: [gme:server:worker:simpleworker:pid_24624:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:30:19.198Z - error: [gme:server:worker:simpleworker:pid_13396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:30:19.211Z - error: [gme:server:worker:simpleworker:pid_13396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:30:19.463Z - error: [gme:server:worker:simpleworker:pid_13396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T10:35:12.544Z - error: [gme:server:worker:simpleworker:pid_20184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T10:35:12.555Z - error: [gme:server:worker:simpleworker:pid_20184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T10:35:12.793Z - error: [gme:server:worker:simpleworker:pid_20184:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T20:25:20.911Z - error: [gme:server:worker:simpleworker:pid_1636:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T20:25:20.940Z - error: [gme:server:worker:simpleworker:pid_1636:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T20:25:21.472Z - error: [gme:server:worker:simpleworker:pid_1636:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T20:27:50.262Z - error: [gme:server:worker:simpleworker:pid_20956:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T20:27:50.274Z - error: [gme:server:worker:simpleworker:pid_20956:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T20:27:50.507Z - error: [gme:server:worker:simpleworker:pid_20956:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T20:38:31.469Z - error: [gme:server:worker:simpleworker:pid_4796:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T20:38:31.481Z - error: [gme:server:worker:simpleworker:pid_4796:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T20:38:31.713Z - error: [gme:server:worker:simpleworker:pid_4796:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T20:40:52.334Z - error: [gme:server:worker:simpleworker:pid_14200:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T20:40:52.345Z - error: [gme:server:worker:simpleworker:pid_14200:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T20:40:52.585Z - error: [gme:server:worker:simpleworker:pid_14200:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:14:21.354Z - error: [gme:server:worker:simpleworker:pid_3096:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:14:21.366Z - error: [gme:server:worker:simpleworker:pid_3096:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:14:21.623Z - error: [gme:server:worker:simpleworker:pid_3096:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:15:57.701Z - error: [gme:server:worker:simpleworker:pid_16468:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:15:57.717Z - error: [gme:server:worker:simpleworker:pid_16468:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:15:57.965Z - error: [gme:server:worker:simpleworker:pid_16468:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:16:50.736Z - error: [gme:server:worker:simpleworker:pid_16052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:16:50.748Z - error: [gme:server:worker:simpleworker:pid_16052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:16:50.984Z - error: [gme:server:worker:simpleworker:pid_16052:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:18:25.628Z - error: [gme:server:worker:simpleworker:pid_22912:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:18:25.641Z - error: [gme:server:worker:simpleworker:pid_22912:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:18:25.884Z - error: [gme:server:worker:simpleworker:pid_22912:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:23:12.488Z - error: [gme:server:worker:simpleworker:pid_21320:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:23:12.500Z - error: [gme:server:worker:simpleworker:pid_21320:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:23:12.734Z - error: [gme:server:worker:simpleworker:pid_21320:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:40:18.703Z - error: [gme:server:worker:simpleworker:pid_24896:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:40:18.716Z - error: [gme:server:worker:simpleworker:pid_24896:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:40:18.962Z - error: [gme:server:worker:simpleworker:pid_24896:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:49:58.967Z - error: [gme:server:worker:simpleworker:pid_9104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:49:58.978Z - error: [gme:server:worker:simpleworker:pid_9104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:49:59.225Z - error: [gme:server:worker:simpleworker:pid_9104:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:52:03.977Z - error: [gme:server:worker:simpleworker:pid_2092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:52:03.988Z - error: [gme:server:worker:simpleworker:pid_2092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:52:04.238Z - error: [gme:server:worker:simpleworker:pid_2092:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T21:54:27.050Z - error: [gme:server:worker:simpleworker:pid_15520:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T21:54:27.062Z - error: [gme:server:worker:simpleworker:pid_15520:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T21:54:27.304Z - error: [gme:server:worker:simpleworker:pid_15520:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T22:08:57.594Z - error: [gme:server:worker:simpleworker:pid_3396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T22:08:57.606Z - error: [gme:server:worker:simpleworker:pid_3396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T22:08:57.862Z - error: [gme:server:worker:simpleworker:pid_3396:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T22:31:58.146Z - error: [gme:server:worker:simpleworker:pid_12952:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T22:31:58.159Z - error: [gme:server:worker:simpleworker:pid_12952:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T22:31:58.395Z - error: [gme:server:worker:simpleworker:pid_12952:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T22:35:09.593Z - error: [gme:server:worker:simpleworker:pid_11488:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T22:35:09.605Z - error: [gme:server:worker:simpleworker:pid_11488:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T22:35:09.843Z - error: [gme:server:worker:simpleworker:pid_11488:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T22:42:17.755Z - error: [gme:server:worker:simpleworker:pid_1940:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T22:42:17.767Z - error: [gme:server:worker:simpleworker:pid_1940:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T22:42:18.021Z - error: [gme:server:worker:simpleworker:pid_1940:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
+2023-12-14T22:45:00.554Z - error: [gme:server:worker:simpleworker:pid_4544:WorkerFunctions:PluginManagerBase:plugin:CreateGame] what where how
+2023-12-14T22:45:00.566Z - error: [gme:server:worker:simpleworker:pid_4544:WorkerFunctions:PluginManagerBase:plugin:CreateGame] calling python
+2023-12-14T22:45:00.820Z - error: [gme:server:worker:simpleworker:pid_4544:WorkerFunctions:PluginManagerBase:plugin:CreateGame] exit code 0
