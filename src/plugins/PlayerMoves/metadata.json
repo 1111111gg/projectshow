@@ -1,0 +1,36 @@
+{
+  "id": "PlayerMoves",
+  "name": "PlayerMoves",
+  "version": "0.1.0",
+  "description": "",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": false,
+  "dependencies": [],
+  "writeAccessRequired": true,
+  "configStructure": [
+    {
+      "name": "row",
+      "displayName": "row",
+      "description": "Where was the move made",
+      "value": 0,
+      "valueType": "number",
+      "minValue": 0,
+      "maxValue": 7,
+      "readOnly": false
+    },
+    {
+      "name": "column",
+      "displayName": "column",
+      "description": "Where was the move made",
+      "value": 0,
+      "valueType": "number",
+      "minValue": 0,
+      "maxValue": 7,
+      "readOnly": false
+    }
+  ]
+}
